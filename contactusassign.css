@@ -1,0 +1,86 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body{
+ 	width: 100%;
+ 	height: 100vh;
+ 	display: grid;
+ 	align-items: center;
+ 	background:url(../images/image7.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size:cover;
+
+ }
+
+ .contact-in{width: 80%;
+ 	         height: auto;
+ 	         margin: auto;
+ 	         display: flex;
+ 	         flex-wrap: wrap;
+ 	         padding: 10px;
+ 	         border-radius: 10px;
+ 	         background: rgba(0,0,0,0.2);
+ 	         box-shadow: 0px 0px 10px 0px #666;
+             }
+
+ .contact-map {width:100%;
+              height:auto;
+              flex: 50%
+              }
+
+  .contact-map iframe{width:100%;
+              height:100%;
+              }
+
+ .contact-form{width: 100%;
+              height: auto;
+              flex: 50%;
+              padding: 30px;
+              text-align: center;
+              letter-spacing: 2px;
+              }
+
+ .contact-form h1{margin-bottom: 10px;
+ 	 font-family: 'Pangolin', cursive;
+ 	 color: #98FB98;
+ 	 text-shadow: 2px 2px 3px black;
+                 }
+
+
+ .contact-form-text{width: 100%;
+                    height:40px;
+                    color: #000;
+                     border: 2px solid #bcbcbc;
+                     border-radius: 50px;
+                     outline: none;
+                     margin-bottom: 20px;
+                     padding: 15px;
+                     font-family: 'Pangolin', cursive;
+
+                    }
+
+ .contact-form-textarea{width: 100%;
+                    height:130px;
+                    color: #000;
+                     border: 2px solid #bcbcbc;
+                     border-radius: 30px;
+                     outline: none;
+                     margin-bottom: 20px;
+                     padding:15px;
+                     font-family: 'Pangolin', cursive;
+                    }
+
+.contact-form-btn{
+	              width: 30%;
+	              border: none;
+	              outline: none;
+	              border-radius: 50px;
+	              background: blue;
+	              padding: 10px;
+	              text-transform: uppercase;
+	              cursor: pointer;
+	              color: white;
+	              letter-spacing: 2px;
+                   }

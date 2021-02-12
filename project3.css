@@ -1,0 +1,104 @@
+*{margin: 0;
+   padding: 0;
+box-sizing: border-box;}
+
+header{
+       width: 100%;
+	   height:100vh;
+	   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)) ,url("../images/image5.jpg");
+	   background-repeat: no-repeat;
+	   background-size: 100% 100%;]
+	  }
+ 
+ nav{
+ 	 width: 100%;
+ 	 height: 15vh;
+ 	 background: rgba(0,0,0,0.3);
+ 	 color: white;
+ 	 display: flex;
+ 	 justify-content: space-between;
+ 	 align-items: center;
+ 	 text-transform: uppercase;
+ }
+
+ nav h1{text-shadow: 2px 2px 2px black;}
+
+ nav a{text-shadow: 2px 2px 2px black;}
+
+ .logo{width: 25%;
+       text-align: center;}
+
+  .menu{
+  	width: 50%;
+  	display: flex;
+  	justify-content: space-around;
+
+  }
+
+  .menu a{
+  	      text-decoration: none;
+  	      color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition:all .5s ease;
+  	     }
+ main{width: 100%;
+      height: 85vh;
+      color: white;
+      padding-top: 15%;
+      padding-left: 50px;
+
+      }
+ section p{
+ 	      font-size: 35px;
+ 	      text-shadow: 2px 2px 3px black;
+        letter-spacing: 2px;
+          }
+
+ section h1{
+ 	        font-size: 25px;
+ 	        font-weight: 200;
+         text-shadow: 1px 1px 1px black;
+         letter-spacing: 2px;
+         font-weight: bold;
+         margin-top: 10px;
+            }
+
+ button:hover{color: red;}
+
+  button {
+         padding: 12px 30px;
+         border-radius: 20px;
+         margin-top: 15px;
+         font-size: 20px;
+         text-transform: uppercase;
+         font-weight: bold;
+         text-decoration: none;
+         }
+
+.btn{transition: .5s ease;}
+
+button a{
+         text-decoration: none;
+         color: red;
+         }
+
+ button a:hover{color: green;}
+
+ nav .menu a:hover{color:  #00FF7F;}
+ 
+ .change_content:after{content:"";
+                     animation: changetext 10s infinite linear;
+                     color: #00b894
+
+                        }
+
+ @keyframes changetext{
+        0%{content: "Patient care";}
+        20%{content: "Senior citizens";}
+        40%{content: "Nursing care";}
+        60%{content: "Physiotherapy";}
+        80%{content: "Trained attendant";}
+        100%{content: "Doctor consultation";}
+ }
+
